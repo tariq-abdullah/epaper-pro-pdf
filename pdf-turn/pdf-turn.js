@@ -5,6 +5,8 @@
 /// all code added in viewer.js (from pdfjs build) in order to support 
 /// flipbook is commented with '$FB:' string to allow to find it easilly 
 
+jQuery(document).ready(function($){
+
 var bookFlip = {
 	_width: [],		//flipbook pages width
 	_height: [],	//flipbook pages height
@@ -203,3 +205,4 @@ var bookFlip = {
 };
 
 bookFlip.init();
+});
